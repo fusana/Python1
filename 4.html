@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>simple document</title>
+</head>
+
+<body>
+
+<p>The strongly emphasized word in this paragraph is <strong>red</strong>.</p>
+<h2>This subhead is also red.</h2>
+<h2>The strongly emphasized word in this subhead is <strong>blue</strong>.</h2>
+
+<p><strong>我是粗体字，不是斜体字，因为我不在列表当中，所以这个规则对我不起作用</strong></p>
+
+<ol>
+<li><strong>我是斜体字，这是因为strong元素位于li元素内。</strong></li>
+<li>我是正常的字体。</li>
+</ol>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<style type="text/css">
+h2 {color:red; font-size:14px;}
+
+li strong{
+	font-style:italic;
+	font-weight:normal;
+	}
+strong{
+	color:red;
+	}
+h2 strong{
+	color:blue;
+	}
+</style>
+
+</body>
+</html>
